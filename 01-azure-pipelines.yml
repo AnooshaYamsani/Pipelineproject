@@ -20,6 +20,5 @@ stages:
         echo See https://aka.ms/yaml
       displayName: 'Run a multi-line script'
   - job: Job3
-- stage: QA
-- stage: UAT
-- stage: Prod
+    steps:
+    - bash: echo this is from job3
